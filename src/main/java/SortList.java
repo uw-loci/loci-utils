@@ -13,6 +13,8 @@ import java.util.Arrays;
 /**
  * Sorts a text file alphabetically, removing duplicates.
  *
+ * You can use "sort file.txt | uniq" to accomplish the same thing.
+ *
  * <dl><dt><b>Source code:</b></dt>
  * <dd><a href="https://skyking.microscopy.wisc.edu/trac/java/browser/trunk/utils/SortList.java">Trac</a>,
  * <a href="https://skyking.microscopy.wisc.edu/svn/java/trunk/utils/SortList.java">SVN</a></dd></dl>

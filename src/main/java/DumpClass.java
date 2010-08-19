@@ -8,6 +8,7 @@ import java.lang.reflect.Method;
 
 /**
  * Uses reflection to print a bunch of information about a class.
+ * You can also use "javap -c" for a similar result.
  *
  * <dl><dt><b>Source code:</b></dt>
  * <dd><a href="https://skyking.microscopy.wisc.edu/trac/java/browser/trunk/utils/DumpClass.java">Trac</a>,

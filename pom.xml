@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+    http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>loci</groupId>
+    <artifactId>loci-base-pom</artifactId>
+    <version>1.01</version>
+  </parent>
+
+  <groupId>loci</groupId>
+  <artifactId>utils</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>LOCI Utilities</name>
+  <description>A collection of simple utilities for which the choice of Java was probably inappropriate.</description>
+  <url>http://loci.wisc.edu/software</url>
+  <inceptionYear>2006</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>WTFPL</name>
+      <url>http://sam.zoy.org/wtfpl/COPYING</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>curtis</id>
+      <name>Curtis Rueden</name>
+      <email>ctrueden@wisc.edu</email>
+      <url>http://loci.wisc.edu/people/curtis-rueden</url>
+      <organization>UW-Madison LOCI</organization>
+      <organizationUrl>http://loci.wisc.edu/</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>-6</timezone>
+      <properties>
+        <picUrl>http://loci.wisc.edu/files/loci/images/people/curtis-2010.jpg</picUrl>
+      </properties>
+    </developer>
+  </developers>
+
+  <repositories>
+    <!-- NB: for loci-base-pom -->
+    <repository>
+      <id>loci.releases</id>
+      <url>http://loci.wisc.edu:8081/content/repositories/releases</url>
+    </repository>
+  </repositories>
+
+</project>

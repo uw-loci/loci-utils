@@ -10,6 +10,7 @@ import java.util.Vector;
 
 /**
  * Scans Java source files for unused and package imports.
+ * Of course, Eclipse does this better.
  *
  * <dl><dt><b>Source code:</b></dt>
  * <dd><a href="https://skyking.microscopy.wisc.edu/trac/java/browser/trunk/utils/UnusedImports.java">Trac</a>,

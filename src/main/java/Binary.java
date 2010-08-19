@@ -7,8 +7,8 @@ import java.io.File;
 import java.io.FileReader;
 
 /**
- * Attempts to convert a string of zeroes and ones into readable text.
- * Try 'java Binary bits.txt' for an example.
+ * Attempts to convert a string of zeroes and ones
+ * into readable text using a variety of encodings.
  *
  * <dl><dt><b>Source code:</b></dt>
  * <dd><a href="https://skyking.microscopy.wisc.edu/trac/java/browser/trunk/utils/Binary.java">Trac</a>,

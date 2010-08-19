@@ -12,6 +12,8 @@ import java.util.Arrays;
  * have matching file sizes, but does not check byte-for-byte equality when
  * the file sizes match.
  *
+ * You can use GNU diff on two folders to accomplish a similar effect.
+ *
  * <dl><dt><b>Source code:</b></dt>
  * <dd><a href="https://skyking.microscopy.wisc.edu/trac/java/browser/trunk/utils/CompareTrees.java">Trac</a>,
  * <a href="https://skyking.microscopy.wisc.edu/svn/java/trunk/utils/CompareTrees.java">SVN</a></dd></dl>
