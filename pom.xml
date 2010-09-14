@@ -21,8 +21,8 @@
 
   <licenses>
     <license>
-      <name>WTFPL</name>
-      <url>http://sam.zoy.org/wtfpl/COPYING</url>
+      <name>BSD</name>
+      <url>http://dev.loci.wisc.edu/svn/java/trunk/projects/utils/LICENSE.txt</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
