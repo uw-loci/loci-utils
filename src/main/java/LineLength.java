@@ -67,9 +67,9 @@ public class LineLength implements FileFilter {
       if (args[i].startsWith("-")) {
         // argument is a flag
         if (args[i].equals("-tabwidth")) {
-          int q = -1;
+          int q;
           try { q = Integer.parseInt(args[++i]); }
-          catch (Exception exc) { }
+          catch (Exception exc) { q = -1; }
           if (q <= 0) System.out.println("Ignoring bogus tab width.");
           else tabWidth = q;
         }
@@ -160,11 +160,12 @@ public class LineLength implements FileFilter {
     else expFile = new File(this.exp);
   }
 
-  public boolean accept(File pathName) {
-    pathName = strip(pathName);
+  @Override
+	public boolean accept(final File pathName) {
+    final File strippedName = strip(pathName);
     return suffix ?
-      pathName.getName().endsWith(exp) :
-      expFile.getAbsoluteFile().equals(pathName.getAbsoluteFile());
+      strippedName.getName().endsWith(exp) :
+      expFile.getAbsoluteFile().equals(strippedName.getAbsoluteFile());
   }
 
 }

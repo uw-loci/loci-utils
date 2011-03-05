@@ -51,14 +51,11 @@ public class EditDistance {
     System.out.println("Distance = " + getEditDistance(a, b));
   }
 
-  public static int getEditDistance(String s, String t) {
+  public static int getEditDistance(final String s, final String t) {
     // Leveshtein algorithm
-    if (s == null) s = "";
-    if (t == null) t = "";
-
-    char[] a = s.toCharArray();
-    char[] b = t.toCharArray();
-    int[] w = new int[b.length + 1];
+    final char[] a = s == null ? new char[0] : s.toCharArray();
+    final char[] b = t == null ? new char[0] : t.toCharArray();
+    final int[] w = new int[b.length + 1];
 
     int cur = 0, next = 0;
 

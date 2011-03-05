@@ -72,15 +72,15 @@ public class CompareTrees {
   }
 
   public static final void compare(File dir1, File dir2) {
-    if (dir1 == null && dir2 == null) return;
+    if (dir1 == null) {
+    	if (dir2 == null) return;
+      System.out.println(">>> " + dir2 + "\t[" +
+        dir2.listFiles().length + " files]");
+      return;
+    }
     if (dir2 == null) {
       System.out.println("<<< " + dir1 + "\t[" +
         dir1.listFiles().length + " files]");
-      return;
-    }
-    if (dir1 == null) {
-      System.out.println(">>> " + dir2 + "\t[" +
-        dir2.listFiles().length + " files]");
       return;
     }
     File[] list1 = dir1.listFiles();

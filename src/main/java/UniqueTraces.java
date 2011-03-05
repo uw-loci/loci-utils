@@ -64,10 +64,12 @@ public class UniqueTraces {
         }
         // in the middle of a stack trace
       }
-      buf.append(line);
-      buf.append("\n");
+      if (buf != null) {
+        buf.append(line);
+        buf.append("\n");
+      }
     }
-    traces.add(buf.toString());
+    if (buf != null) traces.add(buf.toString());
 
     String[] traceStrings = new String[traces.size()];
     traces.toArray(traceStrings);

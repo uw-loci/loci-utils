@@ -32,6 +32,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 */
 
+import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -88,10 +89,10 @@ public class TestMem extends JFrame implements ActionListener {
     memFree = new JLabel();
     memUsed = new JLabel();
 
-    memTotal.setAlignmentX(JLabel.CENTER_ALIGNMENT);
-    memMax.setAlignmentX(JLabel.CENTER_ALIGNMENT);
-    memFree.setAlignmentX(JLabel.CENTER_ALIGNMENT);
-    memUsed.setAlignmentX(JLabel.CENTER_ALIGNMENT);
+    memTotal.setAlignmentX(Component.CENTER_ALIGNMENT);
+    memMax.setAlignmentX(Component.CENTER_ALIGNMENT);
+    memFree.setAlignmentX(Component.CENTER_ALIGNMENT);
+    memUsed.setAlignmentX(Component.CENTER_ALIGNMENT);
 
     refreshLabels();
 
@@ -109,7 +110,8 @@ public class TestMem extends JFrame implements ActionListener {
     setVisible(true);
   }
 
-  public void actionPerformed(ActionEvent e) {
+  @Override
+	public void actionPerformed(ActionEvent e) {
     String cmd = e.getActionCommand();
     if ("malloc".equals(cmd)) {
       // allocate lots of memory
