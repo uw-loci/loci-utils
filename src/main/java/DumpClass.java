@@ -41,8 +41,8 @@ import java.lang.reflect.Method;
  * You can also use "javap -c" for a similar result.
  *
  * <dl><dt><b>Source code:</b></dt>
- * <dd><a href="http://dev.loci.wisc.edu/trac/java/browser/trunk/projects/utils/src/main/java/DumpClass.java">Trac</a>,
- * <a href="http://dev.loci.wisc.edu/svn/java/trunk/projects/utils/src/main/java/DumpClass.java">SVN</a></dd></dl>
+ * <dd><a href="http://dev.loci.wisc.edu/trac/software/browser/trunk/projects/utils/src/main/java/DumpClass.java">Trac</a>,
+ * <a href="http://dev.loci.wisc.edu/svn/software/trunk/projects/utils/src/main/java/DumpClass.java">SVN</a></dd></dl>
  */
 public class DumpClass {
 

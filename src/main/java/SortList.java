@@ -46,8 +46,8 @@ import java.util.Arrays;
  * You can use "sort file.txt | uniq" to accomplish the same thing.
  *
  * <dl><dt><b>Source code:</b></dt>
- * <dd><a href="http://dev.loci.wisc.edu/trac/java/browser/trunk/projects/utils/src/main/java/SortList.java">Trac</a>,
- * <a href="http://dev.loci.wisc.edu/svn/java/trunk/projects/utils/src/main/java/SortList.java">SVN</a></dd></dl>
+ * <dd><a href="http://dev.loci.wisc.edu/trac/software/browser/trunk/projects/utils/src/main/java/SortList.java">Trac</a>,
+ * <a href="http://dev.loci.wisc.edu/svn/software/trunk/projects/utils/src/main/java/SortList.java">SVN</a></dd></dl>
  */
 public class SortList {
 

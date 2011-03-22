@@ -38,8 +38,8 @@ import java.io.File;
  * Tests performance of File.exists() vs File.listFiles().
  *
  * <dl><dt><b>Source code:</b></dt>
- * <dd><a href="http://dev.loci.wisc.edu/trac/java/browser/trunk/projects/utils/src/main/java/FileOpsTest.java">Trac</a>,
- * <a href="http://dev.loci.wisc.edu/svn/java/trunk/projects/utils/src/main/java/FileOpsTest.java">SVN</a></dd></dl>
+ * <dd><a href="http://dev.loci.wisc.edu/trac/software/browser/trunk/projects/utils/src/main/java/FileOpsTest.java">Trac</a>,
+ * <a href="http://dev.loci.wisc.edu/svn/software/trunk/projects/utils/src/main/java/FileOpsTest.java">SVN</a></dd></dl>
  */
 public class FileOpsTest {
   public static void main(String[] args) {

@@ -42,8 +42,8 @@ import java.util.ArrayList;
  * filters out duplicates and outputs what's left.
  *
  * <dl><dt><b>Source code:</b></dt>
- * <dd><a href="http://dev.loci.wisc.edu/trac/java/browser/trunk/projects/utils/src/main/java/UniqueTraces.java">Trac</a>,
- * <a href="http://dev.loci.wisc.edu/svn/java/trunk/projects/utils/src/main/java/UniqueTraces.java">SVN</a></dd></dl>
+ * <dd><a href="http://dev.loci.wisc.edu/trac/software/browser/trunk/projects/utils/src/main/java/UniqueTraces.java">Trac</a>,
+ * <a href="http://dev.loci.wisc.edu/svn/software/trunk/projects/utils/src/main/java/UniqueTraces.java">SVN</a></dd></dl>
  */
 public class UniqueTraces {
 

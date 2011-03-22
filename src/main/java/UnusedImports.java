@@ -43,8 +43,8 @@ import java.util.Vector;
  * Of course, Eclipse does this better.
  *
  * <dl><dt><b>Source code:</b></dt>
- * <dd><a href="http://dev.loci.wisc.edu/trac/java/browser/trunk/projects/utils/src/main/java/UnusedImports.java">Trac</a>,
- * <a href="http://dev.loci.wisc.edu/svn/java/trunk/projects/utils/src/main/java/UnusedImports.java">SVN</a></dd></dl>
+ * <dd><a href="http://dev.loci.wisc.edu/trac/software/browser/trunk/projects/utils/src/main/java/UnusedImports.java">Trac</a>,
+ * <a href="http://dev.loci.wisc.edu/svn/software/trunk/projects/utils/src/main/java/UnusedImports.java">SVN</a></dd></dl>
  */
 public class UnusedImports {
   public static void checkFile(String filename) throws IOException {

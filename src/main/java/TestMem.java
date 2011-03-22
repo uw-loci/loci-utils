@@ -49,8 +49,8 @@ import javax.swing.border.EmptyBorder;
  * A little GUI for testing Java memory behavior.
  *
  * <dl><dt><b>Source code:</b></dt>
- * <dd><a href="http://dev.loci.wisc.edu/trac/java/browser/trunk/projects/utils/src/main/java/TestMem.java">Trac</a>,
- * <a href="http://dev.loci.wisc.edu/svn/java/trunk/projects/utils/src/main/java/TestMem.java">SVN</a></dd></dl>
+ * <dd><a href="http://dev.loci.wisc.edu/trac/software/browser/trunk/projects/utils/src/main/java/TestMem.java">Trac</a>,
+ * <a href="http://dev.loci.wisc.edu/svn/software/trunk/projects/utils/src/main/java/TestMem.java">SVN</a></dd></dl>
  */
 @SuppressWarnings("serial")
 public class TestMem extends JFrame implements ActionListener {
