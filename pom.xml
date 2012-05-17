@@ -11,7 +11,7 @@
     <version>1.0</version>
   </parent>
 
-  <artifactId>utils</artifactId>
+  <artifactId>loci-utils</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
   <name>LOCI Utilities</name>
