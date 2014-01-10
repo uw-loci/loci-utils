@@ -44,6 +44,13 @@
 		</developer>
 	</developers>
 
+	<scm>
+		<connection>scm:git:git://github.com/uw-loci/loci-utils</connection>
+		<developerConnection>scm:git:git@github.com:uw-loci/loci-utils</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/uw-loci/loci-utils</url>
+	</scm>
+
 	<repositories>
 		<!-- NB: for project parent -->
 		<repository>
