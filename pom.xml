@@ -6,18 +6,24 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>loci</groupId>
-		<artifactId>pom-loci</artifactId>
-		<version>2.0.0</version>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>14.0.0</version>
 		<relativePath />
 	</parent>
 
+	<groupId>loci</groupId>
 	<artifactId>loci-utils</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
 	<name>LOCI Utilities</name>
 	<description>A collection of simple utilities for which the choice of Java was probably inappropriate.</description>
+	<url>https://github.com/uw-loci/loci-utils</url>
 	<inceptionYear>2006</inceptionYear>
+	<organization>
+		<name>LOCI</name>
+		<url>https://loci.wisc.edu/</url>
+	</organization>
 	<licenses>
 		<license>
 			<name>Simplified BSD License</name>
@@ -48,12 +54,37 @@
 		</contributor>
 	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>LOCI Software</name>
+			<subscribe>https://loci.wisc.edu/mailman/listinfo/loci-software</subscribe>
+			<unsubscribe>https://loci.wisc.edu/mailman/listinfo/loci-software</unsubscribe>
+			<post>loci-software@loci.wisc.edu</post>
+			<archive>https://loci.wisc.edu/pipermail/loci-software/</archive>
+		</mailingList>
+	</mailingLists>
+
 	<scm>
 		<connection>scm:git:git://github.com/uw-loci/loci-utils</connection>
 		<developerConnection>scm:git:git@github.com:uw-loci/loci-utils</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/uw-loci/loci-utils</url>
 	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/uw-loci/loci-utils/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/uw-loci/loci-utils</url>
+	</ciManagement>
+
+	<properties>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Board of Regents of the University of
+Wisconsin-Madison.</license.copyrightOwners>
+		<license.projectName>A collection of simple Java utilities.</license.projectName>
+	</properties>
 
 	<repositories>
 		<repository>
@@ -61,17 +92,4 @@
 			<url>https://maven.imagej.net/content/groups/public</url>
 		</repository>
 	</repositories>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>license-maven-plugin</artifactId>
-				<configuration>
-					<licenseName>bsd_2</licenseName>
-					<projectName>A collection of simple Java utilities.</projectName>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>
