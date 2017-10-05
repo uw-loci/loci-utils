@@ -84,6 +84,9 @@
 		<license.copyrightOwners>Board of Regents of the University of
 Wisconsin-Madison.</license.copyrightOwners>
 		<license.projectName>A collection of simple Java utilities.</license.projectName>
+
+		<!-- NB: Deploy releases to the ImageJ Maven repository. -->
+		<releaseProfiles>deploy-to-imagej</releaseProfiles>
 	</properties>
 
 	<repositories>
